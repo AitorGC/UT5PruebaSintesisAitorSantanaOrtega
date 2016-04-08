@@ -2,7 +2,7 @@
 public class calculadora {
 
     private String op1;
-    private String op2;
+    private String oper2;
     private String operador;
     
     public static void main(String[] args) {
@@ -18,11 +18,11 @@ public class calculadora {
 	}
 
 	public String getOp2() {
-		return op2;
+		return oper2;
 	}
 
 	public void setOp2(String op2) {
-		this.op2 = op2;
+		this.oper2 = op2;
 	}
 	
 	public String getRes() {
