@@ -8,6 +8,7 @@
  */
 public class calculadora {
 
+<<<<<<< HEAD
     /* @param En realidad se debería llamar 'operador1' pero lo hice corriendo y la fastidié.
      *  Sirve para usarlo de operando.*/
 	
@@ -20,6 +21,11 @@ public class calculadora {
     /* @param En realidad se debería llamar 'operación' pero lo hice corriendo y la fastidié.
      *  Sirve para usarlo de operación.*/
     private String res;
+=======
+    private String op1;
+    private String oper2;
+    private String operador;
+>>>>>>> cambiosdenombre
     
     public static void main(String[] args) {
     	///codigo
@@ -34,19 +40,19 @@ public class calculadora {
 	}
 
 	public String getOp2() {
-		return op2;
+		return oper2;
 	}
 
 	public void setOp2(String op2) {
-		this.op2 = op2;
+		this.oper2 = op2;
 	}
 	
 	public String getRes() {
-		return res;
+		return operador;
 	}
 
 	public void setRes(String res) {
-		this.res = res;
+		this.operador = res;
 	}
 
 
