@@ -3,7 +3,7 @@ public class calculadora {
 
     private String op1;
     private String op2;
-    private String res;
+    private String operador;
     
     public static void main(String[] args) {
     	///codigo
@@ -26,11 +26,11 @@ public class calculadora {
 	}
 	
 	public String getRes() {
-		return res;
+		return operador;
 	}
 
 	public void setRes(String res) {
-		this.res = res;
+		this.operador = res;
 	}
 
 
